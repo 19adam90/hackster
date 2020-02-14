@@ -1,0 +1,18 @@
+timestamp=[2020-01-30 19:08:09], mode=WORKBENCH_START, duration=0:00:12.033, duration_ms=12033, data={}
+timestamp=[2020-01-30 19:08:10], mode=WORKBENCH_UI_INIT, duration=0:00:00.812, duration_ms=812, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2020-01-30 19:13:07], mode=APP_CREATION, duration=0:00:45.180, duration_ms=45180, data={name=hackster_motor, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=design_1_wrapper, application_type=application}
+timestamp=[2020-01-30 19:26:58], mode=PLATFORM_GENERATION, duration=0:01:09.241, duration_ms=69241, data={name=design_1_wrapper}
+timestamp=[2020-01-31 12:26:09], mode=WORKBENCH_START, duration=0:00:14.362, duration_ms=14362, data={}
+timestamp=[2020-01-31 12:26:10], mode=WORKBENCH_UI_INIT, duration=0:00:01.268, duration_ms=1268, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,hackster_motor,hackster_motor_system}
+timestamp=[2020-02-13 09:26:48], mode=WORKBENCH_START, duration=0:00:22.621, duration_ms=22621, data={}
+timestamp=[2020-02-13 09:26:50], mode=WORKBENCH_UI_INIT, duration=0:00:01.599, duration_ms=1599, data={editors_count=2, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,hackster_motor,hackster_motor_system}
+timestamp=[2020-02-13 09:35:16], mode=PLATFORM_GENERATION, duration=0:01:18.392, duration_ms=78392, data={name=design_1_wrapper}
+timestamp=[2020-02-13 10:08:31], mode=PLATFORM_GENERATION, duration=0:00:02.734, duration_ms=2734, data={name=design_1_wrapper}
+timestamp=[2020-02-13 10:08:56], mode=PLATFORM_GENERATION, duration=0:00:04.499, duration_ms=4499, data={name=design_1_wrapper}
+timestamp=[2020-02-13 10:10:37], mode=PLATFORM_GENERATION, duration=0:00:56.973, duration_ms=56973, data={name=design_1_wrapper}
+timestamp=[2020-02-13 10:13:34], mode=PLATFORM_GENERATION, duration=0:00:57.247, duration_ms=57247, data={name=design_1_wrapper}
+timestamp=[2020-02-13 10:14:58], mode=PLATFORM_GENERATION, duration=0:00:04.331, duration_ms=4331, data={name=design_1_wrapper}
+timestamp=[2020-02-13 10:15:56], mode=PLATFORM_GENERATION, duration=0:00:57.171, duration_ms=57171, data={name=design_1_wrapper}
+timestamp=[2020-02-13 10:29:51], mode=APP_CREATION, duration=0:00:08.995, duration_ms=8995, data={name=hackster_motor, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=design_1_wrapper, application_type=application}
+timestamp=[2020-02-13 11:34:13], mode=WORKBENCH_START, duration=0:00:11.487, duration_ms=11487, data={}
+timestamp=[2020-02-13 11:34:14], mode=WORKBENCH_UI_INIT, duration=0:00:01.235, duration_ms=1235, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,hackster_motor,hackster_motor_system}

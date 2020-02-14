@@ -1,0 +1,68 @@
+2020-02-13T14:29:16.153218100255-14:29:16 **** Incremental Build of configuration Debug for project hackster_motor ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/helloworld.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/FPGA/MiniZed_hackster/hackster_motor/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+000-../src/helloworld.c: In function 'main':
+000/hackster_motor/src/helloworld.c175-1-1implicit declaration of function 'read'; did you mean 'fread'? [-Wimplicit-function-declaration]1-../src/helloworld.c:175:3: warning: implicit declaration of function 'read'; did you mean 'fread'? [-Wimplicit-function-declaration]
+000-   read(1, (char*) &key_input, 1);
+000-   ^~~~
+000-   fread
+000/hackster_motor/src/helloworld.c196-1-1unknown conversion type character '\x0a' in format [-Wformat=]1-../src/helloworld.c:196:15: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+000-    printf("25%\n\r");
+000-               ^~
+000/hackster_motor/src/helloworld.c102-1-1unused variable 'SettingsTable' [-Wunused-variable]1-../src/helloworld.c:102:15: warning: unused variable 'SettingsTable' [-Wunused-variable]
+000-  TmrCntrSetup SettingsTable = { TICK_TIMER_FREQ_HZ, 0, 0, 0 };
+000-               ^~~~~~~~~~~~~
+000/hackster_motor/src/helloworld.c98-1-1unused variable 'lcd_dec' [-Wunused-variable]1-../src/helloworld.c:98:11: warning: unused variable 'lcd_dec' [-Wunused-variable]
+000-  uint32_t lcd_dec=0;
+000-           ^~~~~~~
+000/hackster_motor/src/helloworld.c97-1-1unused variable 'l_byte' [-Wunused-variable]1-../src/helloworld.c:97:17: warning: unused variable 'l_byte' [-Wunused-variable]
+000-  uint32_t byte, l_byte;
+000-                 ^~~~~~
+000/hackster_motor/src/helloworld.c96-1-1unused variable 'Delay' [-Wunused-variable]1-../src/helloworld.c:96:15: warning: unused variable 'Delay' [-Wunused-variable]
+000-  volatile int Delay;
+000-               ^~~~~
+000-../src/helloworld.c: In function 'display_menu':
+000/hackster_motor/src/helloworld.c239-1-1unknown conversion type character '\x0a' in format [-Wformat=]1-../src/helloworld.c:239:23: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+000-  printf("  (2)   - 25%\n");
+000-                       ^~
+000/hackster_motor/src/helloworld.c240-1-1unknown conversion type character '\x0a' in format [-Wformat=]1-../src/helloworld.c:240:23: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+000-  printf("  (3)   - 33%\n");
+000-                       ^~
+000/hackster_motor/src/helloworld.c241-1-1unknown conversion type character '\x0a' in format [-Wformat=]1-../src/helloworld.c:241:23: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+000-  printf("  (4)   - 50%\n");
+000-                       ^~
+000/hackster_motor/src/helloworld.c242-1-1unknown conversion type character '\x0a' in format [-Wformat=]1-../src/helloworld.c:242:23: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+000-  printf("  (5)   - 66%\n");
+000-                       ^~
+000/hackster_motor/src/helloworld.c243-1-1unknown conversion type character '\x0a' in format [-Wformat=]1-../src/helloworld.c:243:23: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+000-  printf("  (6)   - 75%\n");
+000-                       ^~
+000/hackster_motor/src/helloworld.c244-1-1unknown conversion type character '\x0a' in format [-Wformat=]1-../src/helloworld.c:244:24: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+000-  printf("  (7)   - 100%\n");
+000-                        ^~
+000-../src/helloworld.c: In function 'TickHandler':
+000/hackster_motor/src/helloworld.c325-1-1variable 'StatusEvent' set but not used [-Wunused-but-set-variable]1-../src/helloworld.c:325:6: warning: variable 'StatusEvent' set but not used [-Wunused-but-set-variable]
+000-  u32 StatusEvent;
+000-      ^~~~~~~~~~~
+000-'Finished building: ../src/helloworld.c'
+000-' '
+000-'Building target: hackster_motor.elf'
+000-'Invoking: ARM v7 gcc linker'
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LD:/FPGA/MiniZed_hackster/hackster_motor/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bsplib/lib -o "hackster_motor.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: hackster_motor.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size hackster_motor.elf  |tee "hackster_motor.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  74440	   3432	  23456	 101328	  18bd0	hackster_motor.elf
+000-'Finished building: hackster_motor.elf.size'
+000-' '
+00255-
+14:29:18 Build Finished (took 1s.844ms)
+
